@@ -1,9 +1,15 @@
 import Image from "next/image";
 import React from "react";
 
-const Hero = () => {
+const HeroSection = () => {
     return (
-        <div className=" h-screen pt-24 pb-6 border-b border-secondary">
+        <div className="h-screen pt-24 pb-6 ">
+            <Image
+                className="absolute top-0 left-0 h-full w-full -z-10"
+                src="/assets/hero-bg.svg"
+                fill
+                alt="Hero Background"
+            />
             <div
                 id="FlexContainer"
                 className=" container px-6 mx-auto flex flex-col md:flex-row h-full w-full justify-between items-center"
@@ -28,7 +34,7 @@ const Hero = () => {
                 </div>
                 <div
                     id="HeroImage"
-                    className="relative h-1/2 w-full lg:w-1/2 lg:h-3/4 z-0"
+                    className="relative h-1/2 w-full lg:w-1/2 lg:h-4/5 z-0"
                 >
                     <Image
                         className="object-contain"
@@ -43,4 +49,4 @@ const Hero = () => {
     );
 };
 
-export default Hero;
+export default HeroSection;

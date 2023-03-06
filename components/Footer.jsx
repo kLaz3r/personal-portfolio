@@ -20,7 +20,7 @@ const Footer = () => {
     }
     return (
         <div
-            className={`${snapClass} container mx-auto h-36 md:h-32 px-6 py-6 flex flex-col md:flex-row justify-center md:justify-between items-center`}
+            className={`${snapClass} border-secondary container mx-auto h-36 md:h-32 px-6 py-6 flex flex-col md:flex-row justify-center md:justify-between items-center`}
         >
             <div className="SocialButtons justify-center md:justify-start h-full flex flex-row gap-6 w-full pb-3 md:pb-0">
                 <Link href="https://github.com/kLaz3r">
