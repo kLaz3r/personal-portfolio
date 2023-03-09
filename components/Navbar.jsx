@@ -47,13 +47,13 @@ const Navbar = () => {
                     <div
                         className={`NavItemsModal ${
                             isMenuOpen
-                                ? "visible"
-                                : "invisible -translate-x-full"
+                                ? "visible opacity-95"
+                                : "invisible -translate-x-full opacity-0"
                         } transition-all absolute z-40 top-0 left-0 pl-12 py-6 text-6xl gap-12 bg-dark flex flex-col h-screen w-screen justify-center items-start`}
                     >
                         <Link href="/">Home</Link>
-                        <Link href="/photos">Photos</Link>
                         <Link href="/projects">Projects</Link>
+                        <Link href="/photos">Photos</Link>
                         <Link href="/about">About</Link>
                         <Link href="/contact">Contact</Link>
                     </div>
@@ -66,15 +66,15 @@ const Navbar = () => {
                         </Link>
                         <Link
                             className="hover:text-secondary transition-all"
-                            href="/photos"
-                        >
-                            Photos
-                        </Link>
-                        <Link
-                            className="hover:text-secondary transition-all"
                             href="/projects"
                         >
                             Projects
+                        </Link>
+                        <Link
+                            className="hover:text-secondary transition-all"
+                            href="/photos"
+                        >
+                            Photos
                         </Link>
                         <Link
                             className="hover:text-secondary transition-all"

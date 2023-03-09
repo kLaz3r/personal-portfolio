@@ -1,6 +1,6 @@
 import HeroSection from "@/components/HeroSection";
 import Layout from "@/components/Layout";
-import SkillsSection from "@/components/SkillsSection";
+import ProjectsSection from "@/components/ProjectsSection";
 import Head from "next/head";
 
 export default function Home() {
@@ -17,7 +17,7 @@ export default function Home() {
             </Head>
             <Layout>
                 <HeroSection />
-                <SkillsSection />
+                <ProjectsSection />
             </Layout>
         </>
     );

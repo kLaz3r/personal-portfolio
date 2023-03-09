@@ -3,7 +3,7 @@ import React from "react";
 
 const HeroSection = () => {
     return (
-        <div className="h-screen pt-24 pb-6 ">
+        <div className="h-screen pt-24 pb-6 snap-start">
             <Image
                 className="absolute top-0 left-0 h-full w-full -z-10"
                 src="/assets/hero-bg.svg"
