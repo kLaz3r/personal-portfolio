@@ -4,15 +4,20 @@ import React from "react";
 
 const ProjectsSection = () => {
     return (
-        <div className="w-full pt-24 px-6 bg-secondary text-dark">
-            <div className="container mx-auto h-full flex flex-col items-center">
+        <div className="w-full pt-24 bg-secondary text-dark">
+            <div className="container mx-auto">
+                <h1 className="text-center text-6xl">
+                    Here are my best projects
+                </h1>
+            </div>
+            <div className="container mx-auto px-6 h-full flex flex-col lg:flex-row lg:gap-12 items-center">
                 <div
                     id="Project"
                     className="w-full snap-start h-screen flex flex-col items-center justify-evenly pt-24"
                 >
                     <div
                         id="ImageWrapper"
-                        className="relative h-56 w-full drop-shadow-xl"
+                        className="relative h-32 w-full drop-shadow-xl"
                     >
                         <Image
                             src="/assets/nam-nam-logo.png"
@@ -21,9 +26,9 @@ const ProjectsSection = () => {
                             className="object-contain"
                         />
                     </div>
-                    <div id="ProjectInfo w-full">
-                        <h1 className="text-5xl text-center pb-12">
-                            Nam-Nam Food Database
+                    <div id="ProjectInfo " className="w-full">
+                        <h1 className="text-5xl text-center pb-12 lg:text-4xl">
+                            Food Database
                         </h1>
                         <ul className="space-y-3">
                             <li className="flex w-full border-b border-dashed pb-2 justify-between items-center">
@@ -71,7 +76,7 @@ const ProjectsSection = () => {
                 >
                     <div
                         id="ImageWrapper"
-                        className="relative h-56 w-full drop-shadow-xl"
+                        className="relative h-32 w-full drop-shadow-xl"
                     >
                         <Image
                             src="/assets/book.png"
@@ -81,7 +86,7 @@ const ProjectsSection = () => {
                         />
                     </div>
                     <div id="ProjectInfo" className="w-full">
-                        <h1 className=" text-center text-5xl pb-12">
+                        <h1 className=" text-center text-5xl pb-12 lg:text-4xl">
                             Harry Potter Wiki
                         </h1>
                         <ul className="space-y-3 w-full">
@@ -130,7 +135,7 @@ const ProjectsSection = () => {
                 >
                     <div
                         id="ImageWrapper"
-                        className="relative h-56 w-full drop-shadow-xl"
+                        className="relative h-32 w-full drop-shadow-xl"
                     >
                         <Image
                             src="/assets/logob.png"
@@ -140,7 +145,7 @@ const ProjectsSection = () => {
                         />
                     </div>
                     <div id="ProjectInfo" className="w-full">
-                        <h1 className=" text-center text-5xl pb-12">
+                        <h1 className=" text-center text-5xl pb-12 lg:text-4xl">
                             Personal Portfolio
                         </h1>
                         <ul className="space-y-3 w-full">
