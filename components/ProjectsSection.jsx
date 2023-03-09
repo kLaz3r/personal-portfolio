@@ -7,7 +7,7 @@ const ProjectsSection = () => {
         <div className="w-full pt-24 bg-secondary text-dark">
             <div className="container mx-auto">
                 <h1 className="text-center text-6xl">
-                    Here are my best projects
+                    Here are some of my projects
                 </h1>
             </div>
             <div className="container mx-auto px-6 h-full flex flex-col lg:flex-row lg:gap-12 items-center">
