@@ -34,7 +34,7 @@ const HeroSection = () => {
                 </div>
                 <div
                     id="HeroImage"
-                    className="relative h-1/2 w-full lg:w-1/2 lg:h-4/5 z-0"
+                    className="relative drop-shadow-lg h-1/2 w-full lg:w-1/2 lg:h-4/5 z-0"
                 >
                     <Image
                         className="object-contain"
