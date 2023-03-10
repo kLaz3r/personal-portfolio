@@ -5,7 +5,7 @@ const HeroSection = () => {
     return (
         <div className="h-screen pt-24 pb-6 snap-start">
             <Image
-                className="absolute top-0 left-0 h-full w-full -z-10"
+                className="absolute top-0 left-0 h-full w-full -z-10 object-cover"
                 src="/assets/hero-bg.svg"
                 fill
                 alt="Hero Background"

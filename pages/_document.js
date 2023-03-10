@@ -2,7 +2,7 @@ import { Head, Html, Main, NextScript } from "next/document";
 
 export default function Document() {
     return (
-        <Html className="snap-y" lang="en">
+        <Html className="snap-y snap-proximity" lang="en">
             <Head />
             <body>
                 <Main />
