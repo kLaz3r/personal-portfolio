@@ -20,25 +20,25 @@ const Footer = () => {
     }
     return (
         <div
-            className={`${snapClass} border-secondary container mx-auto h-36 md:h-32 px-6 py-6 flex flex-col md:flex-row justify-center md:justify-between items-center`}
+            className={`${snapClass} container mx-auto flex h-36 flex-col items-center justify-center border-secondary px-6 py-6 md:h-32 md:flex-row md:justify-between`}
         >
-            <div className="SocialButtons justify-center md:justify-start h-full flex flex-row gap-6 w-full pb-3 md:pb-0">
+            <div className="SocialButtons flex h-full w-full flex-row justify-center gap-6 pb-3 md:justify-start md:pb-0">
                 <Link href="https://github.com/kLaz3r">
-                    <GitHubLogoIcon className="h-full w-full text-light hover:text-secondary active:text-secondary transition-all" />
+                    <GitHubLogoIcon className="h-full w-full text-light transition-all hover:text-secondary active:text-secondary" />
                 </Link>
                 <Link href="https://discordapp.com/users/240478370620506112">
-                    <DiscordLogoIcon className="h-full w-full text-light hover:text-secondary active:text-secondary transition-all" />
+                    <DiscordLogoIcon className="h-full w-full text-light transition-all hover:text-secondary active:text-secondary" />
                 </Link>
                 <Link href="https://www.linkedin.com/in/stefan-nasturas-9bb019207/">
-                    <LinkedInLogoIcon className="h-full w-full text-light hover:text-secondary active:text-secondary transition-all" />
+                    <LinkedInLogoIcon className="h-full w-full text-light transition-all hover:text-secondary active:text-secondary" />
                 </Link>
                 <Link href="https://stefan-nasturas.netlify.app/">
-                    <PersonIcon className="h-full w-full text-light hover:text-secondary active:text-secondary transition-all" />
+                    <PersonIcon className="h-full w-full text-light transition-all hover:text-secondary active:text-secondary" />
                 </Link>
             </div>
 
             <div className="CopyrightText">
-                <p className="inline-block -z-10 text-xs w-full text-center">
+                <p className="-z-10 inline-block w-full text-center text-xs">
                     &copy; Copyright 2023, Stefan Nasturas. All rights reserved.{" "}
                 </p>
             </div>

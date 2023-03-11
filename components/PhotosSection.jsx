@@ -4,17 +4,17 @@ import Masonry, { ResponsiveMasonry } from "react-responsive-masonry";
 
 const PhotosSection = ({ imagesArr }) => {
     return (
-        <div className="relative snap-start min-h-screen xl:h-screen pt-24">
-            <div className="-z-10 absolute top-0 left-0 w-full h-full">
+        <div className="relative min-h-screen snap-start pt-24 xl:h-screen">
+            <div className="absolute top-0 left-0 -z-10 h-full w-full">
                 <Image
                     src="/assets/photos-bg.svg"
                     fill
                     alt="Photos Section Background"
                 />
             </div>
-            <div className="container mx-auto xl:h-full flex flex-col xl:flex-row-reverse justify-center items-center px-6">
-                <div className="SectionHeading flex justify-center items-center w-full ml-auto">
-                    <h1 className="text-6xl text-end xl:text-start py-12 drop-shadow-lg xl:pl-6 xl:text-8xl">
+            <div className="container mx-auto flex flex-col items-center justify-center px-6 xl:h-full xl:flex-row-reverse">
+                <div className="SectionHeading ml-auto flex w-full items-center justify-center">
+                    <h1 className="py-12 text-end text-6xl drop-shadow-lg xl:pl-6 xl:text-start xl:text-8xl">
                         I also like{" "}
                         <span className="xl:text-secondary">photography</span>
                     </h1>

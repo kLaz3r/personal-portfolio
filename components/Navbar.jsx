@@ -5,8 +5,8 @@ import React, { useState } from "react";
 const Navbar = () => {
     const [isMenuOpen, setMenuOpen] = useState(false);
     return (
-        <nav className="h-24 fixed z-50 w-screen bg-dark border-secondary border-b">
-            <div className="container mx-auto h-full flex flex-row justify-between items-center px-6">
+        <nav className="fixed z-50 h-24 w-screen border-b border-secondary bg-dark">
+            <div className="container mx-auto flex h-full flex-row items-center justify-between px-6">
                 <div className="ImageWrapper relative h-full w-32">
                     <Image
                         className="object-contain"
@@ -18,7 +18,7 @@ const Navbar = () => {
                 <div className="NavItemsContainer">
                     <div
                         onClick={() => setMenuOpen(!isMenuOpen)}
-                        className="HamburgerIconWrapper relative h-7 w-10 z-50 lg:hidden"
+                        className="HamburgerIconWrapper relative z-50 h-7 w-10 lg:hidden"
                     >
                         {/* <Image
                         className="object-contain"
@@ -28,17 +28,17 @@ const Navbar = () => {
                     /> */}
                         <div className="space-y-2">
                             <div
-                                className={`w-10 h-1 transition-all ${
+                                className={`h-1 w-10 transition-all ${
                                     isMenuOpen ? "bg-secondary" : "bg-light"
                                 }`}
                             ></div>
                             <div
-                                className={`w-10 h-1 transition-all ${
+                                className={`h-1 w-10 transition-all ${
                                     isMenuOpen ? "bg-secondary" : "bg-light"
                                 }`}
                             ></div>
                             <div
-                                className={`w-10 h-1 transition-all ${
+                                className={`h-1 w-10 transition-all ${
                                     isMenuOpen ? "bg-secondary" : "bg-light"
                                 }`}
                             ></div>
@@ -49,7 +49,7 @@ const Navbar = () => {
                             isMenuOpen
                                 ? "visible opacity-95"
                                 : "invisible -translate-x-full opacity-0"
-                        } transition-all absolute z-40 top-0 left-0 pl-12 py-6 text-6xl gap-12 bg-dark flex flex-col h-screen w-screen justify-center items-start`}
+                        } absolute top-0 left-0 z-40 flex h-screen w-screen flex-col items-start justify-center gap-12 bg-dark py-6 pl-12 text-6xl transition-all`}
                     >
                         <Link href="/">Home</Link>
                         <Link href="/projects">Projects</Link>
@@ -57,33 +57,33 @@ const Navbar = () => {
                         <Link href="/about">About</Link>
                         <Link href="/contact">Contact</Link>
                     </div>
-                    <div className="NavItems hidden gap-6 lg:flex text-3xl font-normal">
+                    <div className="NavItems hidden gap-6 text-3xl font-normal lg:flex">
                         <Link
-                            className="hover:text-secondary transition-all"
+                            className="transition-all hover:text-secondary"
                             href="/"
                         >
                             Home
                         </Link>
                         <Link
-                            className="hover:text-secondary transition-all"
+                            className="transition-all hover:text-secondary"
                             href="/projects"
                         >
                             Projects
                         </Link>
                         <Link
-                            className="hover:text-secondary transition-all"
+                            className="transition-all hover:text-secondary"
                             href="/photos"
                         >
                             Photos
                         </Link>
                         <Link
-                            className="hover:text-secondary transition-all"
+                            className="transition-all hover:text-secondary"
                             href="/about"
                         >
                             About
                         </Link>
                         <Link
-                            className="hover:text-secondary transition-all"
+                            className="transition-all hover:text-secondary"
                             href="/contact"
                         >
                             Contact

@@ -66,17 +66,17 @@ const ProjectsArr = [
 
 const ProjectsSection = () => {
     return (
-        <div className="w-full pt-24 lg:h-screen bg-secondary text-dark lg:snap-start">
-            <div className="container flex flex-col justify-evenly items-center mx-auto px-6 lg:h-full">
+        <div className="w-full bg-secondary pt-24 text-dark lg:h-screen lg:snap-start">
+            <div className="container mx-auto flex flex-col items-center justify-evenly px-6 lg:h-full">
                 <h1 className="text-center text-6xl">
                     Here are some of my projects
                 </h1>
-                <div className="FlexContainer w-full h-full flex flex-col lg:flex-row lg:gap-12 items-center lg:h-auto">
+                <div className="FlexContainer flex h-full w-full flex-col items-center lg:h-auto lg:flex-row lg:gap-12">
                     {ProjectsArr.map((element) => (
                         <div
                             key={element.name}
                             id="Project"
-                            className="w-full snap-start pt-24 h-screen flex flex-col items-center justify-evenly lg:h-auto lg:pt-6"
+                            className="flex h-screen w-full snap-start flex-col items-center justify-evenly pt-24 lg:h-auto lg:pt-6"
                         >
                             <div
                                 id="ImageWrapper"
@@ -90,45 +90,45 @@ const ProjectsSection = () => {
                                 />
                             </div>
                             <div id="ProjectInfo " className="w-full">
-                                <h1 className="text-5xl text-center pt-12 pb-12 lg:text-4xl">
+                                <h1 className="pt-12 pb-12 text-center text-5xl lg:text-4xl">
                                     {element.name}
                                 </h1>
                                 <ul className="space-y-3">
-                                    <li className="flex w-full shadow-xl justify-between items-center rounded-3xl pl-4">
+                                    <li className="flex w-full items-center justify-between rounded-3xl pl-4 shadow-xl">
                                         <span className="text-xl">Tech: </span>
                                         <Link
-                                            className="px-4 py-2 bg-dark text-secondary rounded-3xl"
+                                            className="rounded-3xl bg-dark px-4 py-2 text-secondary"
                                             href={element.tech.link}
                                         >
                                             {element.tech.name}
                                         </Link>
                                     </li>
-                                    <li className="flex w-full shadow-xl justify-between items-center rounded-3xl pl-4">
+                                    <li className="flex w-full items-center justify-between rounded-3xl pl-4 shadow-xl">
                                         <span className="text-xl">API: </span>
                                         <Link
-                                            className="px-4 py-2 bg-dark text-secondary rounded-3xl"
+                                            className="rounded-3xl bg-dark px-4 py-2 text-secondary"
                                             href={element.api.link}
                                         >
                                             {element.api.name}
                                         </Link>
                                     </li>
-                                    <li className="flex w-full shadow-xl justify-between items-center rounded-3xl pl-4">
+                                    <li className="flex w-full items-center justify-between rounded-3xl pl-4 shadow-xl">
                                         <span className="text-xl">
                                             Deploy:{" "}
                                         </span>
                                         <Link
-                                            className="px-4 py-2 bg-dark text-secondary rounded-3xl"
+                                            className="rounded-3xl bg-dark px-4 py-2 text-secondary"
                                             href={element.deploy.link}
                                         >
                                             {element.deploy.name}
                                         </Link>
                                     </li>
-                                    <li className="flex w-full shadow-xl justify-between items-center rounded-3xl pl-4">
+                                    <li className="flex w-full items-center justify-between rounded-3xl pl-4 shadow-xl">
                                         <span className="text-xl">
                                             Source Code:{" "}
                                         </span>
                                         <Link
-                                            className="px-4 py-2 bg-dark text-secondary rounded-3xl"
+                                            className="rounded-3xl bg-dark px-4 py-2 text-secondary"
                                             href={element.sourceCode.link}
                                         >
                                             {element.sourceCode.name}
