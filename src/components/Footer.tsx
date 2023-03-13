@@ -12,7 +12,7 @@ const Footer = () => {
   const router = useRouter();
   console.log(router.pathname);
   let snapClass = "";
-  if (router.pathname == "/") {
+  if (router.pathname == "/" || router.pathname == "/projects") {
     snapClass = "snap-end";
   } else {
     snapClass = "";

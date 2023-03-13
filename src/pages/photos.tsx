@@ -24,12 +24,12 @@ const Photos = ({ imagesArr }: PhotosProps) => {
         <meta name="description" content="Personal Portfolio Photos Page" />
       </Head>
       <Layout>
-        <div className="pt-24">
+        <div className="bg-photos-bg bg-cover bg-fixed bg-clip-padding bg-no-repeat pt-24">
           <div className="container mx-auto px-5 pt-6">
             <ResponsiveMasonry>
               <Masonry>
                 {imagesArr.map((element, index) => (
-                  <div key={element.src} className="ImageWrapper">
+                  <div key={element.src} className="ImageWrapper m-1">
                     <Image
                       src={element.src}
                       width={element.width}

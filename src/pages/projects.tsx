@@ -13,53 +13,60 @@ const Projects = () => {
         <meta name="description" content="Personal Portfolio Projects Page" />
       </Head>
       <Layout>
-        <div className="">
+        <div className=" bg-projects-bg bg-cover bg-fixed bg-clip-padding bg-no-repeat">
           {ProjectsList.map((element) => {
             return (
               <div
                 key={element.name}
-                className="Project h-screen w-full snap-start bg-wave-mobile-1 bg-cover py-6 pt-24 even:bg-wave-mobile-2 lg:bg-wave-pc-1 lg:even:bg-wave-pc-2"
+                className="Project h-screen w-full snap-start bg-cover pt-24 "
               >
-                <div className="container mx-auto flex h-full flex-col px-6 pt-6">
-                  <div className="ImageWrapper relative h-56 w-full rounded-lg border-8 border-solid border-dark">
-                    <Image src={element.img} alt={element.name} fill />
+                <div className="container mx-auto flex h-full flex-col items-center px-5 pt-6 lg:flex-row lg:gap-6">
+                  <div className="ImageWrapper relative mx-auto w-full md:w-3/4 lg:w-1/2">
+                    <Image
+                      src={element.img}
+                      alt={element.name}
+                      width="1920"
+                      height="1080"
+                    />
                   </div>
-                  <div className="ProjectInfo flex flex-grow flex-col justify-evenly text-center">
-                    <h1 className="text-4xl drop-shadow-lg">{element.name}</h1>
-                    <p className="pb-3 text-xl drop-shadow-lg">
+                  <div className="ProjectInfo flex flex-grow flex-col items-center justify-evenly text-center lg:w-1/2">
+                    <h1 className="text-4xl drop-shadow-lg lg:py-3 lg:text-6xl">
+                      {element.name}
+                    </h1>
+                    <p className="pb-3 text-xl drop-shadow-lg lg:py-3 lg:text-3xl">
                       {element.desc}
                     </p>
-                    <div className="row flex w-full flex-row items-center justify-between border-b-2 border-dashed border-secondary pb-2 text-3xl drop-shadow-lg">
+                    <div className="row flex w-full flex-row items-center justify-between border-b-2 border-dashed border-secondary pb-2 text-3xl drop-shadow-lg lg:my-3 lg:pb-4 lg:text-5xl">
                       <h3>Tech:</h3>
                       <Link
-                        className="rounded-xl bg-secondary px-3 py-1 text-dark"
+                        className="rounded-xl bg-secondary px-3 py-1 text-dark lg:px-6 lg:py-2"
                         href={element.tech.link}
                       >
                         {element.tech.name}
                       </Link>
                     </div>
-                    <div className="row flex w-full flex-row justify-between border-b-2 border-dashed border-secondary pb-2 text-3xl drop-shadow-lg">
+                    <div className="row flex w-full flex-row items-center justify-between border-b-2 border-dashed border-secondary pb-2 text-3xl drop-shadow-lg lg:my-3 lg:pb-4 lg:text-5xl">
                       <h3>API:</h3>
                       <Link
-                        className="rounded-xl bg-secondary px-3 py-1 text-dark"
+                        className="rounded-xl bg-secondary px-3 py-1 text-dark lg:px-6 lg:py-2"
                         href={element.api.link}
                       >
                         {element.api.name}
                       </Link>
                     </div>
-                    <div className="row flex w-full flex-row justify-between border-b-2 border-dashed border-secondary pb-2 text-3xl drop-shadow-lg">
+                    <div className="row flex w-full flex-row items-center justify-between border-b-2 border-dashed border-secondary pb-2 text-3xl drop-shadow-lg lg:my-3 lg:pb-4 lg:text-5xl">
                       <h3>Deploy:</h3>
                       <Link
-                        className="rounded-xl bg-secondary px-3 py-1 text-dark"
+                        className="rounded-xl bg-secondary px-3 py-1 text-dark lg:px-6 lg:py-2"
                         href={element.deploy.link}
                       >
                         {element.deploy.name}
                       </Link>
                     </div>
-                    <div className="row flex w-full flex-row justify-between border-b-2 border-dashed border-secondary pb-2 text-3xl drop-shadow-lg">
+                    <div className="row flex w-full flex-row items-center justify-between border-b-2 border-dashed border-secondary pb-2 text-3xl drop-shadow-lg lg:my-3 lg:pb-4 lg:text-5xl">
                       <h3>Source Code:</h3>
                       <Link
-                        className="rounded-xl bg-secondary px-3 py-1 text-dark"
+                        className="rounded-xl bg-secondary px-3 py-1 text-dark lg:px-6 lg:py-2"
                         href={element.sourceCode.link}
                       >
                         {element.sourceCode.name}

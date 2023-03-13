@@ -4,10 +4,8 @@ const config = {
   theme: {
     extend: {
       backgroundImage: {
-        "wave-mobile-1": "url('/assets/wave-mobile1.svg')",
-        "wave-mobile-2": "url('/assets/wave-mobile2.svg')",
-        "wave-pc-1": "url('/assets/wave-pc1.svg')",
-        "wave-pc-2": "url('/assets/wave-pc2.svg')",
+        "projects-bg": "url('/assets/layered-waves-projects.svg')",
+        "photos-bg": "url('/assets/layered-waves-photos.svg')",
       },
     },
     colors: {
