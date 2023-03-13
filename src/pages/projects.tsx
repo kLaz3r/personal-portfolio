@@ -14,7 +14,7 @@ const Projects = () => {
       </Head>
       <Layout>
         <div className=" bg-projects-bg bg-cover bg-fixed bg-clip-padding bg-no-repeat">
-          {ProjectsList.map((element) => {
+          {ProjectsList.map((element, index) => {
             return (
               <div
                 key={element.name}
@@ -27,6 +27,7 @@ const Projects = () => {
                       alt={element.name}
                       width="1920"
                       height="1080"
+                      priority={index < 1 ? true : false}
                     />
                   </div>
                   <div className="ProjectInfo flex flex-grow flex-col items-center justify-evenly text-center lg:w-1/2">
@@ -37,7 +38,7 @@ const Projects = () => {
                       {element.desc}
                     </p>
                     <div className="row flex w-full flex-row items-center justify-between border-b-2 border-dashed border-secondary pb-2 text-3xl drop-shadow-lg lg:my-3 lg:pb-4 lg:text-5xl">
-                      <h3>Tech:</h3>
+                      <p>Tech:</p>
                       <Link
                         className="rounded-xl bg-secondary px-3 py-1 text-dark lg:px-6 lg:py-2"
                         href={element.tech.link}
@@ -46,7 +47,7 @@ const Projects = () => {
                       </Link>
                     </div>
                     <div className="row flex w-full flex-row items-center justify-between border-b-2 border-dashed border-secondary pb-2 text-3xl drop-shadow-lg lg:my-3 lg:pb-4 lg:text-5xl">
-                      <h3>API:</h3>
+                      <p>API:</p>
                       <Link
                         className="rounded-xl bg-secondary px-3 py-1 text-dark lg:px-6 lg:py-2"
                         href={element.api.link}
@@ -55,7 +56,7 @@ const Projects = () => {
                       </Link>
                     </div>
                     <div className="row flex w-full flex-row items-center justify-between border-b-2 border-dashed border-secondary pb-2 text-3xl drop-shadow-lg lg:my-3 lg:pb-4 lg:text-5xl">
-                      <h3>Deploy:</h3>
+                      <p>Deploy:</p>
                       <Link
                         className="rounded-xl bg-secondary px-3 py-1 text-dark lg:px-6 lg:py-2"
                         href={element.deploy.link}
@@ -64,7 +65,7 @@ const Projects = () => {
                       </Link>
                     </div>
                     <div className="row flex w-full flex-row items-center justify-between border-b-2 border-dashed border-secondary pb-2 text-3xl drop-shadow-lg lg:my-3 lg:pb-4 lg:text-5xl">
-                      <h3>Source Code:</h3>
+                      <p>Source Code:</p>
                       <Link
                         className="rounded-xl bg-secondary px-3 py-1 text-dark lg:px-6 lg:py-2"
                         href={element.sourceCode.link}
