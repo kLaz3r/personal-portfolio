@@ -21,7 +21,7 @@ const PhotosSection = ({ imagesArr }: PhotosSectionProps) => {
         />
       </div>
       <div className="container mx-auto flex flex-col items-center justify-center px-6 xl:h-full xl:flex-row-reverse">
-        <div className="SectionHeading ml-auto flex w-full items-center justify-center">
+        <div className="SectionHeading ml-auto flex w-full items-center justify-center xl:w-1/2">
           <h1 className="py-12 text-end text-6xl drop-shadow-lg xl:pl-6 xl:text-start xl:text-8xl">
             I also like <span className="xl:text-secondary">photography</span>
           </h1>

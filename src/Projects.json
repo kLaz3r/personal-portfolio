@@ -1,0 +1,192 @@
+[
+  {
+    "name": "Food Database",
+    "desc": "A food database that allows you to search for recipes and get nutritional information about them.",
+    "img": "/assets/ProjectsPage/nam-nam.png",
+    "tech": {
+      "name": "Next.js",
+      "link": "https://nextjs.org/"
+    },
+    "api": {
+      "name": "Edamam",
+      "link": "https://www.edamam.com/"
+    },
+    "deploy": {
+      "name": "Netlify",
+      "link": "https://nam-nam-next.netlify.app/"
+    },
+    "sourceCode": {
+      "name": "GitHub",
+      "link": "https://github.com/kLaz3r/nam-nam-next"
+    }
+  },
+  {
+    "name": "Harry Potter Wiki",
+    "desc": "A Harry Potter Wiki that allows you to search for characters and get information about them.",
+    "img": "/assets/ProjectsPage/hp-wiki.png",
+    "tech": {
+      "name": "Next.js & TS",
+      "link": "https://nextjs.org/"
+    },
+    "api": {
+      "name": "HP-API",
+      "link": "https://hp-api.onrender.com/"
+    },
+    "deploy": {
+      "name": "Netlify",
+      "link": "https://harrypotter-wiki.netlify.app/"
+    },
+    "sourceCode": {
+      "name": "GitHub",
+      "link": "https://github.com/kLaz3r/potter-wiki"
+    }
+  },
+
+  {
+    "name": "Where in the world?",
+    "desc": "A web app that allows you to search for countries and get information about them.",
+    "img": "/assets/ProjectsPage/where-in-the-world.png",
+    "tech": {
+      "name": "React",
+      "link": "https://reactjs.org/"
+    },
+    "api": {
+      "name": "REST Countries",
+      "link": "https://restcountries.com/"
+    },
+    "deploy": {
+      "name": "Netlify",
+      "link": "https://unde-in-lume.netlify.app/"
+    },
+    "sourceCode": {
+      "name": "GitHub",
+      "link": "https://github.com/kLaz3r/rest-countries-api"
+    }
+  },
+  {
+    "name": "Rock Paper Scissors",
+    "desc": "A Rock Paper Scissors game that allows you to play against the computer.",
+    "img": "/assets/ProjectsPage/rock-paper-scissors.png",
+    "tech": {
+      "name": "React",
+      "link": "https://reactjs.org/"
+    },
+    "api": {
+      "name": "None",
+      "link": "/"
+    },
+    "deploy": {
+      "name": "Netlify",
+      "link": "https://piatra-foarfece-hartie.netlify.app/"
+    },
+    "sourceCode": {
+      "name": "GitHub",
+      "link": "https://github.com/kLaz3r/rock-paper-scissors"
+    }
+  },
+  {
+    "name": "URL Shorter",
+    "desc": "A URL Shorter that allows you to shorten your URLs.",
+    "img": "/assets/ProjectsPage/rock-paper-scissors.png",
+    "tech": {
+      "name": "React",
+      "link": "https://reactjs.org/"
+    },
+    "api": {
+      "name": "SHRTCODE",
+      "link": "https://shrtco.de/"
+    },
+    "deploy": {
+      "name": "Netlify",
+      "link": "https://url-shorter-stefan.netlify.app/"
+    },
+    "sourceCode": {
+      "name": "GitHub",
+      "link": "https://github.com/kLaz3r/url-shorter"
+    }
+  },
+  {
+    "name": "Drum Machine",
+    "desc": "A Drum Machine that allows you to play drums with your keyboard.",
+    "img": "/assets/ProjectsPage/le-drum-machine.png",
+    "tech": {
+      "name": "React",
+      "link": "https://reactjs.org/"
+    },
+    "api": {
+      "name": "None",
+      "link": "/"
+    },
+    "deploy": {
+      "name": "Netlify",
+      "link": "https://luminous-kulfi-d7a257.netlify.app/"
+    },
+    "sourceCode": {
+      "name": "GitHub",
+      "link": "https://github.com/kLaz3r/drum-machine-next"
+    }
+  },
+  {
+    "name": "Javascript Calculator",
+    "desc": "A Javascript Calculator that allows you to do basic math operations.",
+    "img": "/assets/ProjectsPage/javascript-calculator.png",
+    "tech": {
+      "name": "Next.js",
+      "link": "https://nextjs.org/"
+    },
+    "api": {
+      "name": "None",
+      "link": "/"
+    },
+    "deploy": {
+      "name": "Netlify",
+      "link": "https://calculator-next.netlify.app/"
+    },
+    "sourceCode": {
+      "name": "GitHub",
+      "link": "https://github.com/kLaz3r/math-calculator-next"
+    }
+  },
+  {
+    "name": "Catto",
+    "desc": "A tribute page for cats.",
+    "img": "/assets/ProjectsPage/catto.png",
+    "tech": {
+      "name": "Next.js",
+      "link": "https://nextjs.org/"
+    },
+    "api": {
+      "name": "Meow Facts",
+      "link": "https://meowfacts.herokuapp.com/"
+    },
+    "deploy": {
+      "name": "Netlify",
+      "link": "https://cats-are-the-best.netlify.app/"
+    },
+    "sourceCode": {
+      "name": "GitHub",
+      "link": "https://github.com/kLaz3r/catto-cat-tribute-next"
+    }
+  },
+  {
+    "name": "Pomodoro Clock",
+    "desc": "A Pomodoro Clock that allows you to set a timer for your work sessions and break sessions.",
+    "img": "/assets/ProjectsPage/pomodoro.png",
+    "tech": {
+      "name": "React",
+      "link": "https://reactjs.org/"
+    },
+    "api": {
+      "name": "None",
+      "link": "/"
+    },
+    "deploy": {
+      "name": "Netlify",
+      "link": "https://react-25-5-clock.netlify.app/"
+    },
+    "sourceCode": {
+      "name": "GitHub",
+      "link": "https://github.com/kLaz3r/react-pomodoro-clock"
+    }
+  }
+]
