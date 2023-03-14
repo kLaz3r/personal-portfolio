@@ -26,7 +26,7 @@ const PhotosSection = ({ imagesArr }: PhotosSectionProps) => {
             I also like <span className="xl:text-secondary">photography</span>
           </h1>
         </div>
-        <div className="ImageGallery w-full xl:w-1/2">
+        <div className="ImageGallery w-full drop-shadow-lg xl:w-1/2">
           <ResponsiveMasonry>
             <Masonry>
               {imagesArr.map((element) => (

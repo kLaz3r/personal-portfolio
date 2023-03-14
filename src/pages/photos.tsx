@@ -29,7 +29,10 @@ const Photos = ({ imagesArr }: PhotosProps) => {
             <ResponsiveMasonry>
               <Masonry>
                 {imagesArr.map((element, index) => (
-                  <div key={element.src} className="ImageWrapper m-1">
+                  <div
+                    key={element.src}
+                    className="ImageWrapper m-1 drop-shadow-lg"
+                  >
                     <Image
                       src={element.src}
                       width={element.width}

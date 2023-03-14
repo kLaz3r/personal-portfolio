@@ -68,7 +68,9 @@ const ProjectsSection = () => {
   return (
     <div className="w-full bg-secondary pt-24 text-dark lg:h-screen lg:snap-start">
       <div className="container mx-auto flex flex-col items-center justify-evenly px-6 lg:h-full">
-        <h1 className="text-center text-6xl">Here are some of my projects</h1>
+        <h1 className="text-center text-6xl drop-shadow-lg">
+          Here are some of my projects
+        </h1>
         <div className="FlexContainer flex h-full w-full flex-col items-center lg:h-auto lg:flex-row lg:gap-12">
           {ProjectsArr.map((element) => (
             <div
@@ -88,7 +90,7 @@ const ProjectsSection = () => {
                 />
               </div>
               <div id="ProjectInfo " className="w-full">
-                <h1 className="pt-12 pb-12 text-center text-5xl lg:text-4xl">
+                <h1 className="pt-12 pb-12 text-center text-5xl drop-shadow-lg lg:text-4xl">
                   {element.name}
                 </h1>
                 <ul className="space-y-3">

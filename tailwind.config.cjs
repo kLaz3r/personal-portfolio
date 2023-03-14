@@ -6,6 +6,7 @@ const config = {
       backgroundImage: {
         "projects-bg": "url('/assets/layered-waves-projects.svg')",
         "photos-bg": "url('/assets/layered-waves-photos.svg')",
+        "about-bg": "url('/assets/layered-waves-about.svg')",
       },
     },
     colors: {

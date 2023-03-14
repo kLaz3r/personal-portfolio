@@ -3,6 +3,7 @@ import HeroSection from "src/components/HeroSection";
 import Layout from "src/components/Layout";
 import PhotosSection from "src/components/PhotosSection";
 import ProjectsSection from "src/components/ProjectsSection";
+import AboutSection from "~/components/AboutSection";
 
 import fs from "fs";
 import sizeOf from "image-size";
@@ -29,6 +30,7 @@ export default function Home({ imagesArr }: HomeProps) {
         <HeroSection />
         <ProjectsSection />
         <PhotosSection imagesArr={imagesArr} />
+        <AboutSection />
       </Layout>
     </>
   );

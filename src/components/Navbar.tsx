@@ -50,11 +50,10 @@ const Navbar = () => {
               isMenuOpen
                 ? "visible opacity-95"
                 : "invisible -translate-x-full opacity-0"
-            } absolute top-0 left-0 z-40 flex h-screen w-screen flex-col items-start justify-center gap-12 bg-dark py-6 pl-12 text-6xl transition-all`}
+            } absolute top-0 left-0 z-40 flex h-screen w-screen flex-col items-start justify-center gap-12 bg-dark py-6 pl-12 text-7xl transition-all`}
           >
             <Link href="/projects">Projects</Link>
             <Link href="/photos">Photos</Link>
-            <Link href="/about">About</Link>
             <Link href="/contact">Contact</Link>
           </div>
           <div className="NavItems hidden gap-6 text-3xl font-normal lg:flex">
@@ -69,9 +68,6 @@ const Navbar = () => {
               href="/photos"
             >
               Photos
-            </Link>
-            <Link className="transition-all hover:text-secondary" href="/about">
-              About
             </Link>
             <Link
               className="transition-all hover:text-secondary"
