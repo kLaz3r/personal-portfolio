@@ -43,10 +43,7 @@ const Footer = () => {
               LinkedIn
               <LinkedInLogoIcon className="h-full w-full text-light transition-all hover:text-secondary active:text-secondary" />
             </Link>
-            <Link
-              href="https://stefan-nasturas.netlify.app/"
-              className="text-[0px]"
-            >
+            <Link href="https://stefannasturas.live/" className="text-[0px]">
               Portfolio
               <PersonIcon className="h-full w-full text-light transition-all hover:text-secondary active:text-secondary" />
             </Link>
