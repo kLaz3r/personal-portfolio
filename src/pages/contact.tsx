@@ -11,13 +11,13 @@ const Contact = () => {
       <Layout>
         <div className="h-screen bg-contact-bg-mobile bg-cover pt-24 lg:bg-contact-bg-pc">
           <div className="container mx-auto h-full px-6 py-9">
+            <h1 className="pb-3 text-center text-4xl">Contact Me</h1>
             <form
               method="POST"
               data-netlify="true"
               className="mx-auto flex h-full max-w-lg flex-col justify-center gap-6"
               name="contact"
             >
-              <h1 className="pb-3 text-center text-4xl">Contact Me</h1>
               <div className="input-group w-full justify-center">
                 <input
                   type="text"
