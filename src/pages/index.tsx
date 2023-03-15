@@ -21,7 +21,7 @@ export default function Home({ imagesArr }: HomeProps) {
   return (
     <>
       <Head>
-        <title>Stefan Nasturas Web Developer</title>
+        <title>Stefan Nasturas | Home</title>
         <meta name="description" content="Personal Portfolio Home Page" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/favicon.ico" />

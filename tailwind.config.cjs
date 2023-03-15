@@ -7,6 +7,9 @@ const config = {
         "projects-bg": "url('/assets/layered-waves-projects.svg')",
         "photos-bg": "url('/assets/layered-waves-photos.svg')",
         "about-bg": "url('/assets/layered-waves-about.svg')",
+        "contact-bg-pc": "url('/assets/contact-pc.svg')",
+        "contact-bg-mobile": "url('/assets/contact-mobile.svg')",
+        "success-bg": "url('/assets/layered-waves-success.svg')",
       },
     },
     colors: {
