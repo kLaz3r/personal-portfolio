@@ -14,7 +14,7 @@ const Contact = () => {
             <form
               method="POST"
               data-netlify="true"
-              action="/success"
+              action="/pages/success"
               className="mx-auto flex h-full max-w-lg flex-col justify-center gap-6"
               name="contact"
             >
