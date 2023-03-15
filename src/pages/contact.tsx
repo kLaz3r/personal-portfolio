@@ -16,7 +16,9 @@ const Contact = () => {
               method="POST"
               data-netlify="true"
               name="contact"
+              action="/success"
             >
+              <input type="hidden" name="form-name" value="contact" />
               <div className="mx-auto flex h-full max-w-lg flex-col justify-center gap-6">
                 <h1 className="pb-3 text-center text-4xl">Contact Me</h1>
                 <div className="input-group w-full justify-center">
