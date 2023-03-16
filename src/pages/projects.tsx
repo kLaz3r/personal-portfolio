@@ -40,7 +40,7 @@ const Projects = () => {
                     <div className="row flex w-full flex-row items-center justify-between border-b-2 border-dashed border-secondary pb-2 text-3xl drop-shadow-lg lg:my-3 lg:pb-4 lg:text-5xl">
                       <p>Tech:</p>
                       <Link
-                        className="rounded-xl bg-secondary px-3 py-1 text-dark lg:px-6 lg:py-2"
+                        className=" border-transparent rounded-xl border-2 bg-secondary px-3 py-1 text-dark transition-all hover:border-secondary hover:bg-dark hover:text-secondary lg:px-6 lg:py-2"
                         href={element.tech.link}
                       >
                         {element.tech.name}
@@ -49,7 +49,7 @@ const Projects = () => {
                     <div className="row flex w-full flex-row items-center justify-between border-b-2 border-dashed border-secondary pb-2 text-3xl drop-shadow-lg lg:my-3 lg:pb-4 lg:text-5xl">
                       <p>API:</p>
                       <Link
-                        className="rounded-xl bg-secondary px-3 py-1 text-dark lg:px-6 lg:py-2"
+                        className="border-transparent rounded-xl border-2 bg-secondary px-3 py-1 text-dark transition-all hover:border-secondary hover:bg-dark hover:text-secondary lg:px-6 lg:py-2"
                         href={element.api.link}
                       >
                         {element.api.name}
@@ -58,7 +58,7 @@ const Projects = () => {
                     <div className="row flex w-full flex-row items-center justify-between border-b-2 border-dashed border-secondary pb-2 text-3xl drop-shadow-lg lg:my-3 lg:pb-4 lg:text-5xl">
                       <p>Deploy:</p>
                       <Link
-                        className="rounded-xl bg-secondary px-3 py-1 text-dark lg:px-6 lg:py-2"
+                        className="border-transparent rounded-xl border-2 bg-secondary px-3 py-1 text-dark transition-all hover:border-secondary hover:bg-dark hover:text-secondary lg:px-6 lg:py-2"
                         href={element.deploy.link}
                       >
                         {element.deploy.name}
@@ -67,7 +67,7 @@ const Projects = () => {
                     <div className="row flex w-full flex-row items-center justify-between border-b-2 border-dashed border-secondary pb-2 text-3xl drop-shadow-lg lg:my-3 lg:pb-4 lg:text-5xl">
                       <p>Source Code:</p>
                       <Link
-                        className="rounded-xl bg-secondary px-3 py-1 text-dark lg:px-6 lg:py-2"
+                        className="border-transparent rounded-xl border-2 bg-secondary px-3 py-1 text-dark transition-all hover:border-secondary hover:bg-dark hover:text-secondary lg:px-6 lg:py-2"
                         href={element.sourceCode.link}
                       >
                         {element.sourceCode.name}

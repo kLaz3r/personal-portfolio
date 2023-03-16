@@ -97,7 +97,7 @@ const ProjectsSection = () => {
                   <li className="flex w-full items-center justify-between rounded-3xl pl-4 shadow-xl">
                     <span className="text-xl">Tech: </span>
                     <Link
-                      className="rounded-3xl bg-dark px-4 py-2 text-secondary"
+                      className="border-transparent rounded-3xl border-2 bg-dark px-4 py-2 text-secondary transition hover:border-dark hover:bg-secondary hover:text-dark "
                       href={element.tech.link}
                     >
                       {element.tech.name}
@@ -106,7 +106,7 @@ const ProjectsSection = () => {
                   <li className="flex w-full items-center justify-between rounded-3xl pl-4 shadow-xl">
                     <span className="text-xl">API: </span>
                     <Link
-                      className="rounded-3xl bg-dark px-4 py-2 text-secondary"
+                      className="border-transparent rounded-3xl border-2 bg-dark px-4 py-2 text-secondary transition hover:border-dark hover:bg-secondary hover:text-dark "
                       href={element.api.link}
                     >
                       {element.api.name}
@@ -115,7 +115,7 @@ const ProjectsSection = () => {
                   <li className="flex w-full items-center justify-between rounded-3xl pl-4 shadow-xl">
                     <span className="text-xl">Deploy: </span>
                     <Link
-                      className="rounded-3xl bg-dark px-4 py-2 text-secondary"
+                      className="border-transparent rounded-3xl border-2 bg-dark px-4 py-2 text-secondary transition hover:border-dark hover:bg-secondary hover:text-dark "
                       href={element.deploy.link}
                     >
                       {element.deploy.name}
@@ -124,7 +124,7 @@ const ProjectsSection = () => {
                   <li className="flex w-full items-center justify-between rounded-3xl pl-4 shadow-xl">
                     <span className="text-xl">Source Code: </span>
                     <Link
-                      className="rounded-3xl bg-dark px-4 py-2 text-secondary"
+                      className="border-transparent rounded-3xl border-2 bg-dark px-4 py-2 text-secondary transition hover:border-dark hover:bg-secondary hover:text-dark "
                       href={element.sourceCode.link}
                     >
                       {element.sourceCode.name}

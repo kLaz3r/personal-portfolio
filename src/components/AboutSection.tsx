@@ -64,7 +64,7 @@ const AboutSection = () => {
               {skills.map((element) => (
                 <Link
                   key={element.name}
-                  className="m-3 rounded-xl bg-secondary px-3 py-2 text-center text-2xl text-dark"
+                  className="border-transparent hover:border-2-dark m-3 rounded-xl border-2 bg-secondary px-3 py-2 text-center text-2xl text-dark transition-all hover:bg-dark hover:text-secondary"
                   href={element.link}
                 >
                   {element.name}
