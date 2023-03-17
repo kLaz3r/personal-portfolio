@@ -2,8 +2,8 @@ import Head from "next/head";
 import Image from "next/image";
 import Link from "next/link";
 import React from "react";
-import ProjectsList from "src/Projects.json";
 import Layout from "~/components/Layout";
+import ProjectsList from "~/Projects.json";
 
 const Projects = () => {
   return (

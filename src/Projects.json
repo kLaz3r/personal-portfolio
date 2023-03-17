@@ -110,8 +110,8 @@
     "desc": "A Drum Machine that allows you to play drums with your keyboard.",
     "img": "/assets/ProjectsPage/le-drum-machine.webp",
     "tech": {
-      "name": "React",
-      "link": "https://reactjs.org/"
+      "name": "Next.js",
+      "link": "https://nextjs.org/"
     },
     "api": {
       "name": "None",
