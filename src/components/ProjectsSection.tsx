@@ -55,7 +55,7 @@ const ProjectsArr = [
     },
     deploy: {
       name: "Netlify",
-      link: "http://localhost:3000/",
+      link: "https://stefannasturas.live/",
     },
     sourceCode: {
       name: "GitHub",
