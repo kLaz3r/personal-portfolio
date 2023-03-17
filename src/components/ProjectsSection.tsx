@@ -6,7 +6,7 @@ const ProjectsArr = [
     name: "Food Database",
     img: "/assets/nam-nam-logo.png",
     tech: {
-      name: "Next.js",
+      name: "Next.js & TS",
       link: "https://nextjs.org/",
     },
     api: {
