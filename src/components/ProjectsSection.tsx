@@ -75,21 +75,17 @@ const ProjectsSection = () => {
           {ProjectsArr.map((element) => (
             <div
               key={element.name}
-              id="Project"
               className="flex h-screen w-full snap-start flex-col items-center justify-evenly pt-24 lg:h-auto lg:snap-align-none lg:pt-6"
             >
-              <div
-                id="ImageWrapper"
-                className="relative h-32 w-full drop-shadow-xl"
-              >
+              <div className="relative h-32 w-full drop-shadow-xl">
                 <Image
                   src={element.img}
-                  alt={element.name}
+                  alt={`${element.name} logo`}
                   fill
                   className="object-contain"
                 />
               </div>
-              <div id="ProjectInfo " className="w-full">
+              <div className="w-full">
                 <h1 className="pt-12 pb-12 text-center text-5xl drop-shadow-lg lg:text-4xl">
                   {element.name}
                 </h1>

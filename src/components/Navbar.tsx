@@ -11,7 +11,7 @@ const Navbar = () => {
           <Image
             className="object-contain"
             src="/assets/logog.png"
-            alt="Logo"
+            alt="Stefan Nasturas Logo"
             fill
           />
           Home

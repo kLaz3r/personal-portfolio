@@ -43,7 +43,7 @@ const AboutSection = () => {
       <div className="container mx-auto flex h-full flex-col items-center justify-center gap-6 px-6 lg:flex-row">
         <div className="ImageWrapper relative hidden h-56 drop-shadow-lg lg:block lg:w-1/2 xl:h-72">
           <Image
-            alt="About Image"
+            alt="About Image Logo"
             src="/assets/logob.png"
             className="object-contain"
             fill
@@ -59,7 +59,7 @@ const AboutSection = () => {
             enjoyed doing it and was extremely passionate about it.
           </p>
           <div className="Skills border-t border-dashed border-secondary py-3">
-            <p className="pb-3 text-4xl">Here are my skills:</p>
+            <h1 className="pb-3 text-4xl">Here are my skills:</h1>
             <div className="grid grid-cols-2 xl:grid-cols-4">
               {skills.map((element) => (
                 <Link
