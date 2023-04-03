@@ -47,8 +47,8 @@
     "desc": "A web app that allows you to search for countries and get information about them.",
     "img": "/assets/ProjectsPage/where-in-the-world.webp",
     "tech": {
-      "name": "React",
-      "link": "https://reactjs.org/"
+      "name": "Next.js & TS",
+      "link": "https://nextjs.org/"
     },
     "api": {
       "name": "REST Countries",
@@ -56,11 +56,11 @@
     },
     "deploy": {
       "name": "Netlify",
-      "link": "https://unde-in-lume.netlify.app/"
+      "link": "https://sage-lokum-225dba.netlify.app/"
     },
     "sourceCode": {
       "name": "GitHub",
-      "link": "https://github.com/kLaz3r/rest-countries-api"
+      "link": "https://github.com/kLaz3r/countries-wiki-next"
     }
   },
   {
