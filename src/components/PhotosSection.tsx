@@ -25,7 +25,11 @@ const PhotosSection = ({ imagesArr }: PhotosSectionProps) => {
         <motion.div
           initial={{ opacity: 0, x: -100 }}
           whileInView={{ opacity: 1, x: 0 }}
-          transition={{ type: "spring", stiffness: 50, ease: "easeInOut" }}
+          transition={{
+            type: "spring",
+            stiffness: 50,
+            ease: "easeInOut",
+          }}
           className="SectionHeading ml-auto flex w-full items-center justify-center xl:w-1/2"
         >
           <h1 className="py-12 text-end text-6xl drop-shadow-lg xl:pl-6 xl:text-start xl:text-8xl">
@@ -35,20 +39,24 @@ const PhotosSection = ({ imagesArr }: PhotosSectionProps) => {
         <motion.div
           initial={{ opacity: 0, x: 100 }}
           whileInView={{ opacity: 1, x: 0 }}
-          transition={{ type: "spring", stiffness: 50, ease: "easeInOut" }}
+          transition={{
+            type: "spring",
+            stiffness: 50,
+            ease: "easeInOut",
+          }}
           className="ImageGallery w-full drop-shadow-lg xl:w-1/2"
         >
           <ResponsiveMasonry>
             <Masonry>
               {imagesArr.map((element) => (
-                <div key={element.src} className="relative m-1">
+                <motion.div key={element.src} className="relative m-1">
                   <Image
                     src={element.src}
                     width={element.width}
                     height={element.height}
                     alt={element.src}
                   />
-                </div>
+                </motion.div>
               ))}
             </Masonry>
           </ResponsiveMasonry>

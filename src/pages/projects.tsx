@@ -14,7 +14,7 @@ const Projects = () => {
         <meta name="description" content="Personal Portfolio Projects Page" />
       </Head>
       <Layout>
-        <div className=" overflow-x-hidden bg-projects-bg bg-cover bg-fixed bg-clip-padding bg-no-repeat">
+        <div className=" overflow-x-hidden md:bg-projects-bg md:bg-cover md:bg-fixed md:bg-clip-padding md:bg-no-repeat">
           {ProjectsList.map((element, index) => {
             let variants = {
               animate: {
