@@ -1,3 +1,4 @@
+import { motion } from "framer-motion";
 import Head from "next/head";
 import Image from "next/image";
 import Link from "next/link";
@@ -13,10 +14,26 @@ const Projects = () => {
         <meta name="description" content="Personal Portfolio Projects Page" />
       </Head>
       <Layout>
-        <div className=" bg-projects-bg bg-cover bg-fixed bg-clip-padding bg-no-repeat">
+        <div className=" overflow-x-hidden bg-projects-bg bg-cover bg-fixed bg-clip-padding bg-no-repeat">
           {ProjectsList.map((element, index) => {
+            let variants = {
+              animate: {
+                x: 0,
+                opacity: 1,
+                transition: {
+                  duration: 0.5,
+                },
+              },
+              initial: {
+                x: index % 2 === 0 ? -100 : 100,
+                opacity: 0,
+              },
+            };
             return (
-              <div
+              <motion.div
+                variants={variants}
+                initial="initial"
+                whileInView="animate"
                 key={element.name}
                 className="Project h-screen w-full  bg-cover pt-24 "
               >
@@ -75,7 +92,7 @@ const Projects = () => {
                     </div>
                   </div>
                 </div>
-              </div>
+              </motion.div>
             );
           })}
         </div>

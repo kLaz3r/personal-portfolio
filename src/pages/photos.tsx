@@ -1,3 +1,4 @@
+import { motion } from "framer-motion";
 import Head from "next/head";
 import Image from "next/image";
 import React from "react";
@@ -29,7 +30,14 @@ const Photos = ({ imagesArr }: PhotosProps) => {
             <ResponsiveMasonry>
               <Masonry>
                 {imagesArr.map((element, index) => (
-                  <div
+                  <motion.div
+                    initial={{ opacity: 0, y: 100 }}
+                    whileInView={{ opacity: 1, y: 0 }}
+                    transition={{
+                      type: "spring",
+                      stiffness: 50,
+                      ease: "easeInOut",
+                    }}
                     key={element.src}
                     className="ImageWrapper m-1 drop-shadow-lg"
                   >
@@ -40,7 +48,7 @@ const Photos = ({ imagesArr }: PhotosProps) => {
                       alt={element.src}
                       priority={index < 3 ? true : false}
                     />
-                  </div>
+                  </motion.div>
                 ))}
               </Masonry>
             </ResponsiveMasonry>

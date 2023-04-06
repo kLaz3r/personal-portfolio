@@ -1,4 +1,5 @@
 import { type AppType } from "next/dist/shared/lib/utils";
+import { useEffect, useState } from "react";
 
 import { AnimatePresence } from "framer-motion";
 

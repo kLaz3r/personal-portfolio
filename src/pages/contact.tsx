@@ -1,3 +1,4 @@
+import { motion } from "framer-motion";
 import Head from "next/head";
 import React from "react";
 import Layout from "~/components/Layout";
@@ -11,7 +12,10 @@ const Contact = () => {
       <Layout>
         <div className="h-screen bg-contact-bg-mobile bg-cover pt-24 lg:bg-contact-bg-pc">
           <div className="container mx-auto h-full px-6 py-9">
-            <form
+            <motion.form
+              initial={{ opacity: 0, y: 100 }}
+              whileInView={{ opacity: 1, y: 0 }}
+              transition={{ type: "spring", stiffness: 50, ease: "easeInOut" }}
               className="h-full"
               method="POST"
               data-netlify="true"
@@ -67,7 +71,7 @@ const Contact = () => {
                   Submit
                 </button>
               </div>
-            </form>
+            </motion.form>
           </div>
         </div>
       </Layout>

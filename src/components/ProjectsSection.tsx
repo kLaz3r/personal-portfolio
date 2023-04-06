@@ -67,7 +67,7 @@ const ProjectsArr = [
 
 const ProjectsSection = () => {
   return (
-    <div className="w-full bg-secondary pt-24 text-dark lg:h-screen ">
+    <div className="w-full overflow-x-hidden bg-secondary pt-24 text-dark lg:h-screen">
       <div className="container mx-auto flex flex-col items-center justify-evenly px-6 lg:h-full">
         <motion.h1
           initial={{ opacity: 0, x: 100 }}

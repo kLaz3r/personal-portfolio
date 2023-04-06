@@ -40,7 +40,7 @@ const skills = [
 
 const AboutSection = () => {
   return (
-    <div className="h-screen bg-about-bg bg-cover pt-24">
+    <div className="h-screen overflow-x-hidden bg-about-bg bg-cover pt-24">
       <div className="container mx-auto flex h-full flex-col items-center justify-center gap-6 px-6 lg:flex-row">
         <motion.div
           initial={{ opacity: 0, y: -100 }}
