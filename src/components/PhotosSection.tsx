@@ -1,3 +1,4 @@
+import { motion } from "framer-motion";
 import Image from "next/image";
 import React from "react";
 import Masonry, { ResponsiveMasonry } from "react-responsive-masonry";
@@ -21,12 +22,22 @@ const PhotosSection = ({ imagesArr }: PhotosSectionProps) => {
         />
       </div>
       <div className="container mx-auto flex flex-col items-center justify-center px-6 xl:h-full xl:flex-row-reverse">
-        <div className="SectionHeading ml-auto flex w-full items-center justify-center xl:w-1/2">
+        <motion.div
+          initial={{ opacity: 0, x: -100 }}
+          whileInView={{ opacity: 1, x: 0 }}
+          transition={{ type: "spring", stiffness: 50, ease: "easeInOut" }}
+          className="SectionHeading ml-auto flex w-full items-center justify-center xl:w-1/2"
+        >
           <h1 className="py-12 text-end text-6xl drop-shadow-lg xl:pl-6 xl:text-start xl:text-8xl">
             I also like <span className="xl:text-secondary">photography</span>
           </h1>
-        </div>
-        <div className="ImageGallery w-full drop-shadow-lg xl:w-1/2">
+        </motion.div>
+        <motion.div
+          initial={{ opacity: 0, x: 100 }}
+          whileInView={{ opacity: 1, x: 0 }}
+          transition={{ type: "spring", stiffness: 50, ease: "easeInOut" }}
+          className="ImageGallery w-full drop-shadow-lg xl:w-1/2"
+        >
           <ResponsiveMasonry>
             <Masonry>
               {imagesArr.map((element) => (
@@ -41,7 +52,7 @@ const PhotosSection = ({ imagesArr }: PhotosSectionProps) => {
               ))}
             </Masonry>
           </ResponsiveMasonry>
-        </div>
+        </motion.div>
       </div>
     </div>
   );

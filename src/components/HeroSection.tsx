@@ -1,3 +1,4 @@
+import { motion } from "framer-motion";
 import Image from "next/image";
 import React from "react";
 
@@ -14,7 +15,13 @@ const HeroSection = () => {
         id="FlexContainer"
         className=" container mx-auto flex h-full w-full flex-col items-center justify-between px-6 md:flex-row"
       >
-        <div id="HeroHeading" className="h-1/2 py-6 lg:h-auto lg:w-1/2">
+        <motion.div
+          id="HeroHeading"
+          className="h-1/2 py-6 lg:h-auto lg:w-1/2"
+          initial={{ opacity: 0, x: -300 }}
+          whileInView={{ opacity: 1, x: 0 }}
+          transition={{ type: "spring", stiffness: 50, ease: "easeInOut" }}
+        >
           <div
             id="Flex"
             className="flex h-full flex-col items-start justify-center"
@@ -30,10 +37,13 @@ const HeroSection = () => {
               learn more about me.
             </p>
           </div>
-        </div>
-        <div
+        </motion.div>
+        <motion.div
           id="HeroImage"
           className="relative z-0 h-1/2 w-full drop-shadow-lg lg:h-4/5 lg:w-1/2"
+          initial={{ opacity: 0, x: 300 }}
+          whileInView={{ opacity: 1, x: 0 }}
+          transition={{ type: "spring", stiffness: 50, ease: "easeInOut" }}
         >
           <Image
             className="object-contain"
@@ -42,7 +52,7 @@ const HeroSection = () => {
             alt="portrait"
             priority
           />
-        </div>
+        </motion.div>
       </div>
     </div>
   );

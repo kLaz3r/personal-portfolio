@@ -1,3 +1,4 @@
+import { motion } from "framer-motion";
 import Image from "next/image";
 import Link from "next/link";
 import React from "react";
@@ -68,12 +69,20 @@ const ProjectsSection = () => {
   return (
     <div className="w-full bg-secondary pt-24 text-dark lg:h-screen lg:snap-start">
       <div className="container mx-auto flex flex-col items-center justify-evenly px-6 lg:h-full">
-        <h1 className="text-center text-6xl drop-shadow-lg">
+        <motion.h1
+          initial={{ opacity: 0, x: 100 }}
+          whileInView={{ opacity: 1, x: 0 }}
+          transition={{ type: "spring", stiffness: 50, ease: "easeInOut" }}
+          className="text-center text-6xl drop-shadow-lg"
+        >
           Here are some of my projects
-        </h1>
+        </motion.h1>
         <div className="FlexContainer flex h-full w-full flex-col items-center lg:h-auto lg:flex-row lg:gap-12">
           {ProjectsArr.map((element) => (
-            <div
+            <motion.div
+              initial={{ opacity: 0, x: -100 }}
+              whileInView={{ opacity: 1, x: 0 }}
+              transition={{ type: "spring", stiffness: 50, ease: "easeInOut" }}
               key={element.name}
               className="flex h-screen w-full snap-start flex-col items-center justify-evenly pt-24 lg:h-auto lg:snap-align-none lg:pt-6"
             >
@@ -128,7 +137,7 @@ const ProjectsSection = () => {
                   </li>
                 </ul>
               </div>
-            </div>
+            </motion.div>
           ))}
         </div>
       </div>

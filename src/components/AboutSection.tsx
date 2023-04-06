@@ -1,3 +1,4 @@
+import { motion } from "framer-motion";
 import Image from "next/image";
 import Link from "next/link";
 import React from "react";
@@ -41,15 +42,25 @@ const AboutSection = () => {
   return (
     <div className="h-screen snap-start bg-about-bg bg-cover pt-24">
       <div className="container mx-auto flex h-full flex-col items-center justify-center gap-6 px-6 lg:flex-row">
-        <div className="ImageWrapper relative hidden h-56 drop-shadow-lg lg:block lg:w-1/2 xl:h-72">
+        <motion.div
+          initial={{ opacity: 0, y: -100 }}
+          whileInView={{ opacity: 1, y: 0 }}
+          transition={{ type: "spring", stiffness: 50, ease: "easeInOut" }}
+          className="ImageWrapper relative hidden h-56 drop-shadow-lg lg:block lg:w-1/2 xl:h-72"
+        >
           <Image
             alt="About Image Logo"
             src="/assets/logob.png"
             className="object-contain"
             fill
           />
-        </div>
-        <div className="AboutInfo drop-shadow-lg lg:w-1/2">
+        </motion.div>
+        <motion.div
+          initial={{ opacity: 0, y: 100 }}
+          whileInView={{ opacity: 1, y: 0 }}
+          transition={{ type: "spring", stiffness: 50, ease: "easeInOut" }}
+          className="AboutInfo drop-shadow-lg lg:w-1/2"
+        >
           <p className="pb-3 text-xl sm:text-2xl md:text-3xl lg:text-2xl xl:text-3xl">
             I consider myself to be an ambitious front end developer. At the age
             of 4 I got my first computer, on it I learned to read, install games
@@ -89,7 +100,7 @@ const AboutSection = () => {
               ))}
             </div>
           </div>
-        </div>
+        </motion.div>
       </div>
     </div>
   );

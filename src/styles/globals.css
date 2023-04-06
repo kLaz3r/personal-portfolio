@@ -12,6 +12,7 @@ body {
   font-family: "Source Sans Pro", sans-serif;
   background-color: #303841;
   color: #d8efff;
+  overflow-x: hidden;
 }
 img {
   object-fit: cover;
