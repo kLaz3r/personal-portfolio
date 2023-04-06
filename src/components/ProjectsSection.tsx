@@ -43,23 +43,23 @@ const ProjectsArr = [
     },
   },
   {
-    name: "Personal Portfolio",
-    img: "/assets/logob.png",
+    name: "Countries Wiki",
+    img: "/assets/countries-wiki.png",
     tech: {
       name: "Next.js & TS",
       link: "https://nextjs.org/",
     },
     api: {
-      name: "None",
-      link: "/",
+      name: "REST Countries",
+      link: "https://restcountries.com/",
     },
     deploy: {
       name: "Netlify",
-      link: "https://stefannasturas.live/",
+      link: "https://sage-lokum-225dba.netlify.app/",
     },
     sourceCode: {
       name: "GitHub",
-      link: "https://github.com/kLaz3r/personal-portfolio",
+      link: "https://github.com/kLaz3r/countries-wiki-next",
     },
   },
 ];

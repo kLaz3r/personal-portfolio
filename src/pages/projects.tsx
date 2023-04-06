@@ -30,7 +30,7 @@ const Projects = () => {
                       priority={index < 1 ? true : false}
                     />
                   </div>
-                  <div className="ProjectInfo flex flex-grow flex-col items-center justify-evenly text-center lg:w-1/2">
+                  <div className="ProjectInfo flex w-full flex-grow flex-col items-center justify-evenly text-center lg:w-1/2">
                     <h1 className="text-4xl drop-shadow-lg lg:py-3 lg:text-6xl">
                       {element.name}
                     </h1>
