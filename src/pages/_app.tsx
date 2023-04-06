@@ -7,7 +7,7 @@ import "~/styles/globals.css";
 
 const MyApp: AppType = ({ Component, pageProps, router }) => {
   return (
-    <AnimatePresence mode="wait" initial={false}>
+    <AnimatePresence mode="wait">
       <Component {...pageProps} key={router.asPath} />
     </AnimatePresence>
   );
