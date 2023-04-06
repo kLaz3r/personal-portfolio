@@ -2,7 +2,7 @@ import { Head, Html, Main, NextScript } from "next/document";
 
 export default function Document() {
   return (
-    <Html className="snap-y snap-proximity" lang="en">
+    <Html className="" lang="en">
       <Head>
         <link
           rel="apple-touch-icon"

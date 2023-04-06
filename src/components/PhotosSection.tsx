@@ -13,7 +13,7 @@ type PhotosSectionProps = {
 
 const PhotosSection = ({ imagesArr }: PhotosSectionProps) => {
   return (
-    <div className="relative min-h-screen snap-start pt-24 xl:h-screen">
+    <div className="relative min-h-screen  pt-24 xl:h-screen">
       <div className="absolute top-0 left-0 -z-10 h-full w-full">
         <Image
           src="/assets/photos-bg.svg"

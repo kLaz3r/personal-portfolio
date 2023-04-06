@@ -11,17 +11,11 @@ import React from "react";
 const Footer = () => {
   const router = useRouter();
   console.log(router.pathname);
-  let snapClass = "";
-  if (router.pathname == "/" || router.pathname == "/projects") {
-    snapClass = "snap-end";
-  } else {
-    snapClass = "";
-  }
   return (
     <>
       <div className="border-t border-secondary">
         <div
-          className={`${snapClass} container mx-auto flex h-36 flex-col items-center justify-center border-secondary px-6 py-6 md:h-32 md:flex-row md:justify-between`}
+          className={` container mx-auto flex h-36 flex-col items-center justify-center border-secondary px-6 py-6 md:h-32 md:flex-row md:justify-between`}
         >
           <div className="SocialButtons flex h-full w-full flex-row justify-center gap-6 pb-3 md:justify-start md:pb-0">
             <Link href="https://github.com/kLaz3r" className="text-[0px]">

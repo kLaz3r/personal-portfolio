@@ -67,7 +67,7 @@ const ProjectsArr = [
 
 const ProjectsSection = () => {
   return (
-    <div className="w-full bg-secondary pt-24 text-dark lg:h-screen lg:snap-start">
+    <div className="w-full bg-secondary pt-24 text-dark lg:h-screen ">
       <div className="container mx-auto flex flex-col items-center justify-evenly px-6 lg:h-full">
         <motion.h1
           initial={{ opacity: 0, x: 100 }}
@@ -84,7 +84,7 @@ const ProjectsSection = () => {
               whileInView={{ opacity: 1, x: 0 }}
               transition={{ type: "spring", stiffness: 50, ease: "easeInOut" }}
               key={element.name}
-              className="flex h-screen w-full snap-start flex-col items-center justify-evenly pt-24 lg:h-auto lg:snap-align-none lg:pt-6"
+              className="flex h-screen w-full  flex-col items-center justify-evenly pt-24 lg:h-auto  lg:pt-6"
             >
               <div className="relative h-32 w-full drop-shadow-xl">
                 <Image

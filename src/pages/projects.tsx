@@ -18,7 +18,7 @@ const Projects = () => {
             return (
               <div
                 key={element.name}
-                className="Project h-screen w-full snap-start bg-cover pt-24 "
+                className="Project h-screen w-full  bg-cover pt-24 "
               >
                 <div className="container mx-auto flex h-full flex-col items-center px-5 pt-6 lg:flex-row lg:gap-6">
                   <div className="ImageWrapper relative mx-auto w-full md:w-3/4 lg:w-1/2">

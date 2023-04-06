@@ -4,7 +4,7 @@ import React from "react";
 
 const HeroSection = () => {
   return (
-    <div className="h-screen snap-start pt-24 pb-6">
+    <div className="h-screen  pt-24 pb-6">
       <Image
         className="absolute top-0 left-0 -z-10 h-full w-full object-cover"
         src="/assets/hero-bg.svg"
