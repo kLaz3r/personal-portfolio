@@ -55,7 +55,7 @@ const ProjectsArr = [
     },
     deploy: {
       name: "Netlify",
-      link: "https://sage-lokum-225dba.netlify.app/",
+      link: "https://countries-wiki-next.netlify.app/",
     },
     sourceCode: {
       name: "GitHub",
