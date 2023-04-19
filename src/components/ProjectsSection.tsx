@@ -15,8 +15,8 @@ const ProjectsArr = [
       link: "https://www.edamam.com/",
     },
     deploy: {
-      name: "Netlify",
-      link: "https://nam-nam-next.netlify.app/",
+      name: "Vercel",
+      link: "https://nam-nam-next.vercel.app/",
     },
     sourceCode: {
       name: "GitHub",
@@ -35,8 +35,8 @@ const ProjectsArr = [
       link: "https://hp-api.onrender.com/",
     },
     deploy: {
-      name: "Netlify",
-      link: "https://harrypotter-wiki.netlify.app/",
+      name: "Vercel",
+      link: "https://potter-wiki-five.vercel.app/",
     },
     sourceCode: {
       name: "GitHub",
@@ -55,8 +55,8 @@ const ProjectsArr = [
       link: "https://restcountries.com/",
     },
     deploy: {
-      name: "Netlify",
-      link: "https://countries-wiki-next.netlify.app/",
+      name: "Vercel",
+      link: "https://countries-wiki-next.vercel.app/",
     },
     sourceCode: {
       name: "GitHub",

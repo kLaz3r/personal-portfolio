@@ -12,8 +12,8 @@
       "link": "https://www.edamam.com/"
     },
     "deploy": {
-      "name": "Netlify",
-      "link": "https://nam-nam-next.netlify.app/"
+      "name": "Vercel",
+      "link": "https://nam-nam-next.vercel.app/"
     },
     "sourceCode": {
       "name": "GitHub",
@@ -33,8 +33,8 @@
       "link": "https://hp-api.onrender.com/"
     },
     "deploy": {
-      "name": "Netlify",
-      "link": "https://harrypotter-wiki.netlify.app/"
+      "name": "Vercel",
+      "link": "https://potter-wiki-five.vercel.app/"
     },
     "sourceCode": {
       "name": "GitHub",
@@ -55,33 +55,12 @@
       "link": "https://restcountries.com/"
     },
     "deploy": {
-      "name": "Netlify",
-      "link": "https://countries-wiki-next.netlify.app/"
+      "name": "Vercel",
+      "link": "https://countries-wiki-next.vercel.app/"
     },
     "sourceCode": {
       "name": "GitHub",
       "link": "https://github.com/kLaz3r/countries-wiki-next"
-    }
-  },
-  {
-    "name": "Rock Paper Scissors",
-    "desc": "A Rock Paper Scissors game that allows you to play against the computer.",
-    "img": "/assets/ProjectsPage/rock-paper-scissors.webp",
-    "tech": {
-      "name": "React",
-      "link": "https://reactjs.org/"
-    },
-    "api": {
-      "name": "None",
-      "link": "/"
-    },
-    "deploy": {
-      "name": "Netlify",
-      "link": "https://piatra-foarfece-hartie.netlify.app/"
-    },
-    "sourceCode": {
-      "name": "GitHub",
-      "link": "https://github.com/kLaz3r/rock-paper-scissors"
     }
   },
   {
@@ -97,8 +76,8 @@
       "link": "https://shrtco.de/"
     },
     "deploy": {
-      "name": "Netlify",
-      "link": "https://url-shorter-stefan.netlify.app/"
+      "name": "Vercel",
+      "link": "https://url-shorter-nlsh.vercel.app/"
     },
     "sourceCode": {
       "name": "GitHub",
@@ -118,8 +97,8 @@
       "link": "/"
     },
     "deploy": {
-      "name": "Netlify",
-      "link": "https://luminous-kulfi-d7a257.netlify.app/"
+      "name": "Vercel",
+      "link": "https://drum-machine-next.vercel.app/"
     },
     "sourceCode": {
       "name": "GitHub",
@@ -139,8 +118,8 @@
       "link": "/"
     },
     "deploy": {
-      "name": "Netlify",
-      "link": "https://calculator-next.netlify.app/"
+      "name": "Vercel",
+      "link": "https://math-calculator-next.vercel.app/"
     },
     "sourceCode": {
       "name": "GitHub",
@@ -160,8 +139,8 @@
       "link": "https://meowfacts.herokuapp.com/"
     },
     "deploy": {
-      "name": "Netlify",
-      "link": "https://cats-are-the-best.netlify.app/"
+      "name": "Vercel",
+      "link": "https://catto-cat-tribute-next.vercel.app/"
     },
     "sourceCode": {
       "name": "GitHub",
@@ -181,8 +160,8 @@
       "link": "/"
     },
     "deploy": {
-      "name": "Netlify",
-      "link": "https://react-25-5-clock.netlify.app/"
+      "name": "Vercel",
+      "link": "https://react-pomodoro-clock-beta.vercel.app/"
     },
     "sourceCode": {
       "name": "GitHub",
