@@ -26,7 +26,7 @@ const HeroSection = () => {
             id="Flex"
             className="flex h-full flex-col items-start justify-center"
           >
-            <h4 className="text-7xl sm:text-8xl lg:text-9xl">
+            <h4 className="text-7xl sm:text-8xl md:text-6xl lg:text-9xl">
               Hi, I am <span className="text-secondary">Stefan.</span>
             </h4>
             <h2 className="text-4xl sm:text-5xl lg:text-6xl">

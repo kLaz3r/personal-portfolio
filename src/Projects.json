@@ -1,5 +1,26 @@
 [
   {
+    "name": "RetroWeb",
+    "desc": "A web app that lets you play retro games.",
+    "img": "/assets/ProjectsPage/retroweb.webp",
+    "tech": {
+      "name": "Next.js",
+      "link": "https://nextjs.org/"
+    },
+    "api": {
+      "name": "None",
+      "link": ""
+    },
+    "deploy": {
+      "name": "Vercel",
+      "link": "https://retroweb-one.vercel.app/"
+    },
+    "sourceCode": {
+      "name": "GitHub",
+      "link": "https://github.com/kLaz3r/retroweb"
+    }
+  },
+  {
     "name": "Food Database",
     "desc": "A food database that allows you to search for recipes and get nutritional information about them.",
     "img": "/assets/ProjectsPage/nam-nam.webp",

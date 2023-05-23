@@ -24,6 +24,27 @@ const ProjectsArr = [
     },
   },
   {
+    name: "RetroWeb",
+    desc: "A web app that lets you play retro games.",
+    img: "/assets/retroweb.png",
+    tech: {
+      name: "Next.js",
+      link: "https://nextjs.org/",
+    },
+    api: {
+      name: "None",
+      link: "",
+    },
+    deploy: {
+      name: "Vercel",
+      link: "https://retroweb-one.vercel.app/",
+    },
+    sourceCode: {
+      name: "GitHub",
+      link: "https://github.com/kLaz3r/retroweb",
+    },
+  },
+  {
     name: "Harry Potter Wiki",
     img: "/assets/book.png",
     tech: {
@@ -41,26 +62,6 @@ const ProjectsArr = [
     sourceCode: {
       name: "GitHub",
       link: "https://github.com/kLaz3r/potter-wiki",
-    },
-  },
-  {
-    name: "Countries Wiki",
-    img: "/assets/countries-wiki.png",
-    tech: {
-      name: "Next.js & TS",
-      link: "https://nextjs.org/",
-    },
-    api: {
-      name: "REST Countries",
-      link: "https://restcountries.com/",
-    },
-    deploy: {
-      name: "Vercel",
-      link: "https://countries-wiki-next.vercel.app/",
-    },
-    sourceCode: {
-      name: "GitHub",
-      link: "https://github.com/kLaz3r/countries-wiki-next",
     },
   },
 ];
