@@ -4,7 +4,7 @@ import React from "react";
 
 const HeroSection = () => {
   return (
-    <div className="h-screen  overflow-x-hidden pt-24 pb-6">
+    <div className="h-screen overflow-x-hidden pt-24 pb-6">
       <Image
         className="absolute top-0 left-0 -z-10 h-full w-full object-cover"
         src="/assets/hero-bg.svg"
@@ -26,13 +26,13 @@ const HeroSection = () => {
             id="Flex"
             className="flex h-full flex-col items-start justify-center"
           >
-            <h4 className="text-7xl sm:text-8xl md:text-6xl lg:text-9xl">
+            <h4 className="pt-4 text-5xl sm:text-8xl md:text-6xl lg:text-9xl">
               Hi, I am <span className="text-secondary">Stefan.</span>
             </h4>
-            <h2 className="text-4xl sm:text-5xl lg:text-6xl">
+            <h2 className="text-3xl sm:text-5xl lg:text-6xl">
               I am a frontend web developer
             </h2>
-            <p className="mt-6 text-xl lg:text-2xl">
+            <p className="mt-3 text-xl lg:text-2xl">
               This is my portfolio, here you can take a look at my work and
               learn more about me.
             </p>

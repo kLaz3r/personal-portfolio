@@ -61,7 +61,7 @@ const AboutSection = () => {
           transition={{ type: "spring", stiffness: 50, ease: "easeInOut" }}
           className="AboutInfo drop-shadow-lg lg:w-1/2"
         >
-          <p className="pb-3 text-xl sm:text-2xl md:text-3xl lg:text-2xl xl:text-3xl">
+          <p className="hidden pb-3 text-xl sm:block sm:text-2xl md:text-3xl lg:text-2xl xl:text-3xl">
             I consider myself to be an ambitious front end developer. At the age
             of 4 I got my first computer, on it I learned to read, install games
             and fix bugs. From then until now, I have gathered a lot of
@@ -74,13 +74,13 @@ const AboutSection = () => {
             <div className="grid grid-cols-2">
               <Link
                 className="border-transparent hover:border-2-dark m-3 rounded-xl border-2 bg-secondary px-3 py-2 text-center text-2xl text-dark transition-all hover:bg-dark hover:text-secondary"
-                href="/resume/english-resume.pdf"
+                href="/resume/CV_english.pdf"
               >
                 English
               </Link>
               <Link
                 className="border-transparent hover:border-2-dark m-3 rounded-xl border-2 bg-secondary px-3 py-2 text-center text-2xl text-dark transition-all hover:bg-dark hover:text-secondary"
-                href="/resume/romana-resume.pdf"
+                href="/resume/CV_romana.pdf"
               >
                 Romana
               </Link>
