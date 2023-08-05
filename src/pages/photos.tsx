@@ -74,8 +74,8 @@ export async function getStaticProps() {
     });
     return {
       props: {
-        imagesArr,
-      }, // will be passed to the page component as props
+        imagesArr: imagesArr.reverse(),
+      },
     };
   } catch (err) {
     console.log(err);
